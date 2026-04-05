@@ -3,7 +3,7 @@ export const defaultSiteData = {
   brand: {
     name: "english with mr sabir",
     tagline: "Clear spoken English, step by step.",
-    photoUrl: "https://avatars.githubusercontent.com/u/216373511?v=4",
+    photoUrl: "assets/img/owner-photo.svg",
     about:
       "english with mr sabir helps learners build clear, fluent spoken English for interviews, work, study, and everyday communication with confidence.",
     contactEmail: "sabirusmani159@gmail.com",

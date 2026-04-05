@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="field-group">
             <label for="login-password">Password</label>
             <div class="password-wrap">
-              <input class="input" id="login-password" name="password" type="password" placeholder="Enter password" required />
-              <button class="button button-ghost button-small" type="button" data-toggle-password>Show</button>
+              <input class="input password-wrap__input" id="login-password" name="password" type="password" placeholder="Enter password" required />
+              <button class="password-toggle" type="button" data-toggle-password>Show</button>
             </div>
           </div>
           <div class="field-inline">

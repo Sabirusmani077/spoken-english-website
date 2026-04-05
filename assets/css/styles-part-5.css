@@ -70,13 +70,37 @@
 }
 
 .password-wrap {
-  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
 }
 
-.password-wrap .button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+.password-wrap__input,
+.password-wrap .input {
+  min-width: 0;
+  padding-right: 16px;
+}
+
+.password-toggle {
+  min-width: 78px;
+  min-height: 54px;
+  padding: 0 16px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(87, 99, 255, 0.08);
+  color: var(--primary-strong);
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.password-toggle:hover {
+  transform: translateY(-1px);
+  background: rgba(87, 99, 255, 0.14);
+  border-color: rgba(87, 99, 255, 0.24);
 }
 
 .example-chips,

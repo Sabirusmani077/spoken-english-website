@@ -215,6 +215,44 @@
     width: 100%;
   }
 
+  .password-wrap {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .password-toggle {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  .auth-layout {
+    gap: 16px;
+  }
+
+  .auth-card {
+    gap: 16px;
+    padding: 18px;
+  }
+
+  .field-group {
+    gap: 10px;
+  }
+
+  .input,
+  .textarea,
+  .select {
+    min-height: 52px;
+    padding: 13px 14px;
+  }
+
+  .field-inline {
+    gap: 12px;
+  }
+
+  .checkbox-line {
+    flex-wrap: wrap;
+  }
+
   .hero__actions,
   .stack-actions,
   .chip-row,

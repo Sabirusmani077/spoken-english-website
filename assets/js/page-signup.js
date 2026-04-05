@@ -41,15 +41,15 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="field-group">
             <label for="signup-password">Password</label>
             <div class="password-wrap">
-              <input class="input" id="signup-password" name="password" type="password" minlength="6" placeholder="Create a password" required />
-              <button class="button button-ghost button-small" type="button" data-toggle-primary-password>Show</button>
+              <input class="input password-wrap__input" id="signup-password" name="password" type="password" minlength="6" placeholder="Create a password" required />
+              <button class="password-toggle" type="button" data-toggle-primary-password>Show</button>
             </div>
           </div>
           <div class="field-group">
             <label for="signup-confirm-password">Confirm password</label>
             <div class="password-wrap">
-              <input class="input" id="signup-confirm-password" name="confirmPassword" type="password" minlength="6" placeholder="Confirm your password" required />
-              <button class="button button-ghost button-small" type="button" data-toggle-confirm-password>Show</button>
+              <input class="input password-wrap__input" id="signup-confirm-password" name="confirmPassword" type="password" minlength="6" placeholder="Confirm your password" required />
+              <button class="password-toggle" type="button" data-toggle-confirm-password>Show</button>
             </div>
           </div>
           <div class="field-group">
